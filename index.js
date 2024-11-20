@@ -3,6 +3,7 @@ const app = express();
 var router = express.Router();
 const userModel = require('./app');
 
+app.listen(3001)
 
 app.get('/create', async function (req, res) {
   const newUser = await userModel.create({
@@ -12,5 +13,3 @@ app.get('/create', async function (req, res) {
   });
   res.send(newUser)
 })
-
-app.listen(3001)
