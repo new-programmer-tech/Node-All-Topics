@@ -1,1 +1,13 @@
 cookies and session
+cookie-parser
+jwt
+dcrypt
+gentsalt -> encryption of password
+
+
+================================================================
+
+1. how to read and set cookies
+2. how to use bcrypt for password encryption and decryption
+3. what is jwt and how to store data in it , and how to use it
+4.
