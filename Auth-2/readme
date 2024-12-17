@@ -1,0 +1,10 @@
+create user account:-
+    mongoose
+    schema
+    model
+
+    userCreate -> password -> hash
+    jwt token -> cookie
+
+
+    login -> token -> decrypt ->email
